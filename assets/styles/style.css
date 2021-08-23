@@ -1,0 +1,103 @@
+.tall{
+    min-height: 25vh;
+}
+.medium{
+    min-height: 20vh;
+}
+.short{
+    min-height: 5vh;
+}
+.move-down{
+    transform: translateY(3px)
+    translateX(7px)
+}
+.text-font{
+    font-family: besley;
+}
+.background{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/52993d5ce4b0c5f2207d6d67/1434311859163-DNAKXT0CD10JPLRSE4BJ/boise-idaho-real-estate-photography-interior.jpg?format=2500w);
+    background-size: cover;
+}
+.background-2{
+    background-image: url(http://cdn.home-designing.com/wp-content/uploads/2018/09/black-and-grey-bedroom-ideas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background-3{
+    background-image: url(https://www.digsdigs.com/photos/2017/10/02-a-moody-masculine-space-with-an-upholstered-black-wall-that-brings-softness-and-comfort-to-the-room-decor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.living-room{
+    height: 400px;
+    width: 400px
+}
+.video{
+    src: url(<iframe width="950" height="534" src="https://www.youtube.com/embed/8vKpW4J9ce4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>);
+    max-width: 50%;
+    height: auto;
+}
+
+.gradient{
+    background: rgb(19,11,16);
+    background: linear-gradient(230deg, rgba(19,11,16,1) 18%, rgba(96,68,29,1) 91%);
+}
+.compliment{
+    background-color: #CCBFAD;
+}
+.card-brown{
+    background-color: #331E0D;
+}
+.button-border{
+    border-radius: 2rem;
+    width: 12rem;
+    background-color: #331E0D;
+    border-color: #331E0D;
+}
+.button-border-2{
+    border-radius: 2rem;
+    width: 7rem;
+    background-color: #331E0D;
+    border-color: #331E0D;
+}
+    
+    @media(max-width: 600px){
+        #disappear{
+            display: none;
+        }
+    }
+    
+    @media(min-width: 600px){
+        #spill{
+            transform: translateY(25px);
+            position: absolute;
+        }
+    }
+    @media(max-width: 600px){
+        #sticky{
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+      }
+}
+@media(max-width: 600px){
+    #mobile-video{
+        width: 300px;
+        height: 200px;
+    }
+    @media(max-width: 600px){
+        #video-column{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+    
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
